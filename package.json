@@ -1,0 +1,32 @@
+{
+    "name": "job-portal-backend",
+    "version": "1.0.0",
+    "description": "Job Portal Backend",
+    "main": "app.js",
+    "scripts": {
+        "test": "jest",
+        "start": "node app.js"
+    },
+    "author": "Nikhil",
+    "license": "ISC",
+    "dependencies": {
+        "@nathanfaucett/array_copy": "0.0.1",
+        "app-root-path": "^3.0.0",
+        "aws-sdk": "^2.842.0",
+        "bcrypt-nodejs": "0.0.3",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "chai-http": "^4.3.0",
+        "cors": "^2.8.5",
+        "dateformat": "^4.5.1",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.2.1",
+        "express-handlebars": "^5.3.2",
+        "jsonwebtoken": "^8.5.1",
+        "mysql2": "^2.3.3",
+        "nodemailer": "^6.9.1",
+        "passport": "^0.4.1",
+        "passport-jwt": "^4.0.0",
+        "sequelize": "^5.21.5"
+    }
+}
